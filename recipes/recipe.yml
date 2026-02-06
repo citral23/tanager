@@ -15,7 +15,9 @@ modules:
     repos:
       files:
         - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
-        - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
+      copr:
+        - avengemedia/dms
+        - avengemedia/danklinux
     install:
       packages:
         - btop
@@ -31,9 +33,15 @@ modules:
         - tailscale
         - telnet
         - virt-manager
-        - noctalia-shell
         - niri
         - niri-settings
+        - dms
+        - cava
+        - danksearch
+        - matugen
+        - cliphist
+        - dgop
+        - material-symbols-fonts
 
     remove:
       packages:
