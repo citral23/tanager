@@ -34,14 +34,12 @@ modules:
         - telnet
         - virt-manager
         - niri
-        - niri-settings
         - dms
+        - dms-greeter
+        - dms-cli
         - cava
-        - danksearch
-        - matugen
-        - cliphist
+        - dsearch
         - dgop
-        - material-symbols-fonts
 
     remove:
       packages:
@@ -53,7 +51,7 @@ modules:
 
   - type: default-flatpaks
     configurations:
-      - notify: true
+      - notify: false
         scope: system
         install:
           - ca.desrt.dconf-editor
