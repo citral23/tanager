@@ -33,7 +33,7 @@ modules:
         - virt-manager
         - noctalia-shell
         - niri
-        - niri-settings
+        - swayidle
 
     remove:
       packages:
@@ -45,7 +45,7 @@ modules:
 
   - type: default-flatpaks
     configurations:
-      - notify: true
+      - notify: false
         scope: system
         install:
           - ca.desrt.dconf-editor
