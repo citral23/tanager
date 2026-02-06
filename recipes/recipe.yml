@@ -35,7 +35,7 @@ modules:
         - niri
         - swayidle
         - brightnessctl
-        - imagemagick
+        - ImageMagick
         - ddcutil
         - cliphist
         - cava
