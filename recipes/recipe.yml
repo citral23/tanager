@@ -16,6 +16,8 @@ modules:
       files:
         - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
         - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
+      copr:
+        - avengemedia/dms 
     install:
       packages:
         - btop
@@ -32,7 +34,6 @@ modules:
         - telnet
         - virt-manager
         - noctalia-shell
-        - niri
         - swayidle
         - brightnessctl
         - ImageMagick
@@ -40,6 +41,7 @@ modules:
         - cliphist
         - cava
         - wlsunset
+        - niri
 
     remove:
       packages:
