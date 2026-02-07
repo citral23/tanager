@@ -43,6 +43,7 @@ modules:
         - wlsunset
         - niri
         - fastfetch
+        - xfce-polkit
 
     remove:
       packages:
