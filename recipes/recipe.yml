@@ -45,6 +45,7 @@ modules:
         - fastfetch
         - xfce-polkit
         - qt6ct
+        - kitty
 
     remove:
       packages:
