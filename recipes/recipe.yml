@@ -44,6 +44,7 @@ modules:
         - niri
         - fastfetch
         - xfce-polkit
+        - qt6ct
 
     remove:
       packages:
