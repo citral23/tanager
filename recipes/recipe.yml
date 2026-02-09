@@ -60,21 +60,15 @@ modules:
       - notify: false
         scope: system
         install:
-          - ca.desrt.dconf-editor
           - com.brave.Browser
-          - com.mattjakeman.ExtensionManager
           - com.ranfdev.DistroShelf
           - io.github.flattool.Ignition
           - io.github.kolunmi.Bazaar
-          - io.missioncenter.MissionCenter
-          - org.atheme.audacious
           - org.fedoraproject.MediaWriter
           - org.gtk.Gtk3theme.adw-gtk3-dark
           - org.mozilla.firefox
           - org.remmina.Remmina
-          - org.videolan.VLC
           - page.codeberg.libre_menu_editor.LibreMenuEditor
-          - page.tesk.Refine
 
   - type: signing
 
