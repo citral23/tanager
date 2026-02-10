@@ -39,6 +39,7 @@ modules:
         - libvirt
         - mediawriter
         - mpv
+        - mpv-devel
         - niri
         - noctalia-shell
         - papers
@@ -46,7 +47,6 @@ modules:
         - qemu
         - qt6ct
         - screen
-        - swayidle
         - tailscale
         - telnet
         - virt-manager
