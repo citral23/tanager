@@ -30,6 +30,7 @@ modules:
         - eog
         - fastfetch
         - fira-code-fonts
+        - gamescope
         - gnome-calculator
         - gnome-clocks
         - gnome-text-editor
@@ -37,6 +38,7 @@ modules:
         - ImageMagick
         - kitty
         - libvirt
+        - mangohud
         - mediawriter
         - mpv
         - mpv-devel
@@ -47,6 +49,7 @@ modules:
         - qemu
         - qt6ct
         - screen
+        - steam
         - tailscale
         - telnet
         - virt-manager
