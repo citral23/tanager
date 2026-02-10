@@ -19,6 +19,7 @@ modules:
       copr:
         - avengemedia/danklinux 
         - sneexy/zen-browser
+        - lizardbyte/beta
     install:
       packages:
         - brightnessctl
@@ -50,6 +51,7 @@ modules:
         - qt6ct
         - screen
         - steam
+        - sunshine
         - tailscale
         - telnet
         - virt-manager
