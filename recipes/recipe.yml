@@ -21,36 +21,40 @@ modules:
         - sneexy/zen-browser
     install:
       packages:
+        - brightnessctl
         - btop
+        - cava
+        - chezmoi
+        - cliphist
+        - ddcutil
         - eog
+        - fastfetch
+        - fira-code-fonts
         - gnome-calculator
         - gnome-clocks
         - gnome-text-editor
         - gparted
-        - qemu
+        - ImageMagick
+        - kitty
         - libvirt
+        - mediawriter
+        - mpv
+        - niri
+        - noctalia-shell
         - papers
+        - python3-pip
+        - qemu
+        - qt6ct
         - screen
+        - swayidle
         - tailscale
         - telnet
         - virt-manager
-        - noctalia-shell
-        - swayidle
-        - brightnessctl
-        - ImageMagick
-        - ddcutil
-        - cliphist
-        - cava
         - wlsunset
-        - niri
-        - fastfetch
         - xfce-polkit
-        - qt6ct
-        - kitty
-        - mediawriter
-        - zen-browser
-        - fira-code-fonts
+        - yazi
         - zed
+        - zen-browser
 
     remove:
       packages:
