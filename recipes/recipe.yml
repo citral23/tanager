@@ -28,9 +28,11 @@ modules:
         - chezmoi
         - cliphist
         - ddcutil
+        - dialog
         - eog
         - fastfetch
         - fira-code-fonts
+        - freerdp
         - gamescope
         - gnome-calculator
         - gnome-clocks
@@ -44,6 +46,7 @@ modules:
         - mpv
         - mpv-devel
         - niri
+        - nmap-ncat
         - noctalia-shell
         - papers
         - python3-pip
