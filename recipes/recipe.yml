@@ -15,31 +15,60 @@ modules:
     repos:
       files:
         - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
+        - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
       copr:
         - avengemedia/dms
         - avengemedia/danklinux
+        - sneexy/zen-browser
+        - lizardbyte/beta
     install:
       packages:
+        - brightnessctl
         - btop
+        - cava
+        - chezmoi
+        - cliphist
+        - ddcutil
+        - dialog
+        - dms
+        - dms-cli
+        - dsearch
         - eog
+        - fastfetch
+        - fira-code-fonts
+        - freerdp
+        - gamescope
         - gnome-calculator
         - gnome-clocks
         - gnome-text-editor
         - gparted
-        - qemu
+        - ImageMagick
+        - kitty
         - libvirt
+        - mangohud
+        - matugen
+        - mediawriter
+        - mpv
+        - mpv-devel
+        - niri
+        - nmap-ncat
         - papers
+        - python3-pip
+        - qemu
+        - qt6ct
+        - qt6-qtmultimedia
         - screen
+        - steam
+        - sunshine
+        - swayidle
         - tailscale
         - telnet
         - virt-manager
-        - niri
-        - dms
-        - dms-greeter
-        - dms-cli
-        - cava
-        - dsearch
-        - dgop
+        - wlsunset
+        - xfce-polkit
+        - yazi
+        - zed
+        - zen-browser
 
     remove:
       packages:
@@ -54,21 +83,13 @@ modules:
       - notify: false
         scope: system
         install:
-          - ca.desrt.dconf-editor
-          - com.brave.Browser
-          - com.mattjakeman.ExtensionManager
           - com.ranfdev.DistroShelf
           - io.github.flattool.Ignition
           - io.github.kolunmi.Bazaar
-          - io.missioncenter.MissionCenter
-          - org.atheme.audacious
-          - org.fedoraproject.MediaWriter
+          - org.gtk.Gtk3theme.adw-gtk3
           - org.gtk.Gtk3theme.adw-gtk3-dark
-          - org.mozilla.firefox
           - org.remmina.Remmina
-          - org.videolan.VLC
           - page.codeberg.libre_menu_editor.LibreMenuEditor
-          - page.tesk.Refine
 
   - type: signing
 
