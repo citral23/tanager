@@ -34,7 +34,6 @@ modules:
         - fira-code-fonts
         - freerdp
         - gamescope
-        - gedit
         - gnome-calculator
         - gnome-clocks
         - gparted
