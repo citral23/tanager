@@ -54,7 +54,6 @@ modules:
         - screen
         - steam
         - sunshine
-        - swayidle
         - tailscale
         - telnet
         - virt-manager
