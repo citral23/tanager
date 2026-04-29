@@ -3,7 +3,7 @@ name: tanager
 description: An obscure red bird.
 
 base-image: ghcr.io/ublue-os/silverblue-main
-image-version: latest
+image-version: 44
 
 modules:
   - type: files
