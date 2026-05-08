@@ -58,7 +58,6 @@ modules:
         - telnet
         - virt-manager
         - wlsunset
-        - xone
         - yazi
         - zed
 
@@ -67,6 +66,10 @@ modules:
         - htop
         - gnome-software
         - gnome-system-monitor
+
+  - type: akmods
+    install:
+        - xone
 
   - type: default-flatpaks
     configurations:
