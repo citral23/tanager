@@ -69,7 +69,7 @@ modules:
 
   - type: akmods
     install:
-        - xone
+      - xone
 
   - type: default-flatpaks
     configurations:
