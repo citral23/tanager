@@ -58,6 +58,7 @@ modules:
         - telnet
         - virt-manager
         - wlsunset
+        - xone
         - yazi
         - zed
 
