@@ -10,6 +10,8 @@ modules:
     files:
       - source: system
         destination: /
+      - source: usr/lib/firmware
+        destination: /usr/lib/firmware
 
   - type: dnf
     repos:
