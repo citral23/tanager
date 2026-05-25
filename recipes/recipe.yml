@@ -84,6 +84,7 @@ modules:
           - org.gtk.Gtk3theme.adw-gtk3-dark
           - org.remmina.Remmina
           - page.codeberg.libre_menu_editor.LibreMenuEditor
+          - io.github.kolunmi.Bazaar
 
   - type: signing
 
