@@ -85,6 +85,10 @@ modules:
           - org.remmina.Remmina
           - page.codeberg.libre_menu_editor.LibreMenuEditor
           - io.github.kolunmi.Bazaar
+          - io.missioncenter.MissionCenter
+          - com.github.tchx84.Flatseal
+          - org.atheme.audacious
+          - page.tesk.Refine
 
   - type: signing
 
