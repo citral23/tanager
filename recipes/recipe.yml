@@ -47,12 +47,15 @@ modules:
         - gnome-calculator
         - gnome-clocks
         - gparted
+        - gstreamer1-plugins-ugly
         - ImageMagick
+        - intel-media-driver
         - jetbrainsmono-nerd-fonts
         - kitty
         - libvirt
         - mangohud
         - mediawriter
+        - mesa-freeworld
         - mpv
         - mpv-devel
         - niri
