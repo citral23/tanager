@@ -13,6 +13,10 @@ modules:
       - source: usr/lib/firmware
         destination: /usr/lib/firmware
 
+  - type: bling
+    install:
+        - rpmfusion
+
   - type: dnf
     repos:
       files:
