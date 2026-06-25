@@ -55,7 +55,7 @@ modules:
         - libvirt
         - mangohud
         - mediawriter
-        - mesa-freeworld
+        - mesa-va-drivers-freeworld
         - mpv
         - mpv-devel
         - niri
