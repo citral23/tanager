@@ -61,7 +61,6 @@ modules:
         - mpv-devel
         - niri
         - nmap-ncat
-        - noctalia-git
         - noctalia-shell-legacy
         - papers
         - python3-pip
