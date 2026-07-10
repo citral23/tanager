@@ -62,7 +62,6 @@ modules:
         - niri
         - nmap-ncat
         - noctalia-git
-        - noctalia-qs-legacy
         - noctalia-shell-legacy
         - papers
         - python3-pip
