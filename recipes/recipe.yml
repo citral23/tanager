@@ -73,6 +73,9 @@ modules:
         - telnet
         - virt-manager
         - wlsunset
+        - xdotool
+        - xwininfo
+        - yad
         - yazi
         - zed
 
