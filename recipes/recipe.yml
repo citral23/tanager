@@ -26,7 +26,6 @@ modules:
       keys:
         - https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
       copr:
-        - lionheartp/Hyprland 
         - lizardbyte/beta
     install:
       packages:
@@ -61,7 +60,8 @@ modules:
         - mpv-devel
         - niri
         - nmap-ncat
-        - noctalia-shell-legacy
+        - noctalia
+        - noctalia-shell
         - papers
         - python3-pip
         - qemu
