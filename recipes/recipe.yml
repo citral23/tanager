@@ -72,6 +72,7 @@ modules:
         - tailscale
         - telnet
         - virt-manager
+        - wayvnc
         - wlsunset
         - xdotool
         - xwininfo
