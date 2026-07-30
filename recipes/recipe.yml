@@ -69,6 +69,7 @@ modules:
         - screen
         - steam
         - sunshine
+        - system-config-printer
         - tailscale
         - telnet
         - virt-manager
