@@ -65,6 +65,7 @@ modules:
         - noctalia
         - noctalia-shell
         - papers
+        - powertop
         - python3-pip
         - qemu
         - qt6ct
