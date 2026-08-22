@@ -29,6 +29,7 @@ modules:
         - lizardbyte/beta
     install:
       packages:
+        - bat
         - brave-origin
         - brightnessctl
         - btop
