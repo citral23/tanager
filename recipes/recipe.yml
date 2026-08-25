@@ -2,7 +2,7 @@
 name: tanager
 description: An obscure red bird.
 
-base-image: ghcr.io/blue-build/base-images/silverblue
+base-image: ghcr.io/blue-build/base-images/fedora-silverblue
 image-version: latest
 
 modules:
