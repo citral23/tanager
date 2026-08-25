@@ -2,7 +2,7 @@
 name: tanager
 description: An obscure red bird.
 
-base-image: ghcr.io/blue-build/base-images/fedora-base
+base-image: ghcr.io/blue-build/base-images/silverblue-main
 image-version: latest
 
 modules:
@@ -84,9 +84,9 @@ modules:
         - gnome-software
         - gnome-system-monitor
 
-  - type: akmods
-    install:
-      - xone
+  #- type: akmods
+  #  install:
+  #    - xone
 
   - type: default-flatpaks
     configurations:
