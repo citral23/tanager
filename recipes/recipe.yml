@@ -2,7 +2,7 @@
 name: tanager
 description: An obscure red bird.
 
-base-image: ghcr.io/blue-build/base-images/fedora-silverblue
+base-image: ghcr.io/ublue-os/base-main
 image-version: latest
 
 modules:
@@ -14,8 +14,6 @@ modules:
         destination: /usr/lib/firmware
 
   - type: dnf
-    repos:
-      nonfree: negativo17
       files:
         - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
         - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
@@ -68,7 +66,6 @@ modules:
         - system-config-printer
         - tailscale
         - telnet
-        - uupd
         - virt-manager
         - wayvnc
         - wlsunset
@@ -84,9 +81,9 @@ modules:
         - gnome-software
         - gnome-system-monitor
 
-  #- type: akmods
-  #  install:
-  #    - xone
+  - type: akmods
+    install:
+      - xone
 
   - type: default-flatpaks
     configurations:
