@@ -54,8 +54,7 @@ modules:
         - mpv-devel
         - niri
         - nmap-ncat
-        - noctalia
-        - noctalia-shell
+        - noctalia-nightly
         - papers
         - powertop
         - python3-pip
