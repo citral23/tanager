@@ -74,12 +74,15 @@ modules:
         - yad
         - yazi
         - zed
-
     remove:
       packages:
         - htop
         - gnome-software
         - gnome-system-monitor
+    replace:
+      - from-repo: terra
+        packages:
+          - xwayland-satellite
 
   - type: akmods
     install:
