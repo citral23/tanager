@@ -70,6 +70,7 @@ modules:
         - wayvnc
         - wlsunset
         - xdotool
+        - xwayland-satellite
         - xwininfo
         - yad
         - yazi
@@ -78,11 +79,7 @@ modules:
       packages:
         - htop
         - gnome-software
-        - gnome-system-monitor
-    replace:
-      - from-repo: terra
-        packages:
-          - xwayland-satellite
+        - gnome-system-monitor          
 
   - type: akmods
     install:
