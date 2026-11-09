@@ -81,10 +81,6 @@ modules:
         - gnome-software
         - gnome-system-monitor          
 
-  - type: akmods
-    install:
-      - xone
-
   - type: default-flatpaks
     configurations:
       - notify: false
